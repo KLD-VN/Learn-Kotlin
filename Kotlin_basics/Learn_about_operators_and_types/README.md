@@ -118,4 +118,3 @@ val numberOfPlants = 12
 "I have ${numberOfFish + numberOfPlants} fish and plants"
 => I have 17 fish and plants
 ```
-
