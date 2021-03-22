@@ -6,14 +6,14 @@ Vì nulls gây ra rất nhiều bug -> Kotlin hạn chế nó bằng các biến
 
 1. Khai báo viến kiểu **Int** và gán cho **null**
 
-```
+```js
 var rocks: Int = null
-=> error: null can not be a value of a non-null type Int
+=> "error: null can not be a value of a non-null type Int"
 ```
 
 2. **?** phía sau type biểu thị biến có thể **null**
 
-```
+```js
 var marbles: Int? = null
 ```
 
@@ -29,7 +29,7 @@ Có thể kiểu tra **null** với  toán tử **?** thay vì viết nhiều c�
 
 1. Sử dụng **if**/**else** để kiểm tra
 
-```
+```js
 var fishFoodTreats = 6
 if (fishFoodTreats != null) {
    fishFoodTreats = fishFoodTreats.dec()
@@ -38,14 +38,14 @@ if (fishFoodTreats != null) {
 
 2. Sử dụng toán tử **?** 
 
-```
+```js
 var fishFoodTreats = 6
 fishFoodTreats = fishFoodTreats?.dec()
 ```
 
 3. Sử dụng toán tử **?:** -> xâu chuổi việc kiểm tra null
 
-```
+```js
 fishFoodTreats = fishFoodTreats?.dec ?: 0
 ```
 
@@ -58,7 +58,7 @@ fishFoodTreats = fishFoodTreats?.dec ?: 0
 Nếu yêu **NullPointerExceptions** -> Sử dụng toán tử khẳng định not-null, !!(double-bang) 
 => Chuyển đổi bất kỳ giá trị nào không phải null và nếm ra exception nếu giá trị là **null**
 
-```
+```js
 val len = s!!.length // throws NullPointerException if s is null
 ```
 
