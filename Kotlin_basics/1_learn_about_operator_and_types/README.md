@@ -2,7 +2,7 @@
 
 ## STEP1: explore numeric operators (Khám phá toán tử số)
 
-```
+```kotlin
 1 + 1
 => 2 (Int)
 
