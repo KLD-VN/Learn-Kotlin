@@ -69,9 +69,12 @@ val i5 Double = b2.toDouble()
 ```
 
 5. Underscores (dấu gạch dưới) giữa các số -> dễ đọc
+
+```
 val oneMillion = 1_000_000
 val socialSecurityNumber = 999_99_9999L
 val bytes = 0b1110111_111011101_01110101_1010101
+```
 
 ```diff
 + Lưu ý: Kotlin hỗ trợ kiểu mạnh -> không cần khai báo
