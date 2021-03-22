@@ -2,7 +2,7 @@
 
 1. **if**/**else** statement
 
-```
+```js
 val numberOfFish = 50
 val numberOfPlants = 23
 if (numberOfFish > numberOfPlants) {
@@ -11,12 +11,12 @@ if (numberOfFish > numberOfPlants) {
     println("Unhealthy ratio")
 }
 
-=> Good ratio!
+=> "Good ratio!"
 ```
 
 2. Range in an **if** statement (Phạm vi trong câu lệnh if)
 
-```
+```js
 val fish = 50
 if (fish in 1..100) {
     println(fish)
@@ -27,28 +27,28 @@ if (fish in 1..100) {
 
 3. **if** multiple cases -> **&&**, **||**, **else if**
 
-```
+```js
 if (numberOfFish == 0) {
-    println("Empty tank)
+    println("Empty tank")
 } else if (numberOfFish < 40) {
     println("Got fish!")
 } else {
-    println("That's a lot of fish!)
+    println("That's a lot of fish!")
 }
 
-=> That's a lot of fish!
+=> "That's a lot of fish!"
 ```
 
 4. **when** statement -> Cách tốt hơn thay thế cho chuỗi câu lệnh **if**/**else if**/**else** và nó giống switch trong các ngôn ngữ khác.
 
-```
+```js
 when (numberOfFish) {
     0 -> println("Empty tank")
     in 1..39 -> println("Got fish!")
     else -> println("That's a lot of fish!")
 }
 
-=> That's a lot of fish!
+=> "That's a lot of fish!"
 ```
 
 
