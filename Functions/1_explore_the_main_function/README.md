@@ -15,4 +15,4 @@ Khai báo function -> **fun** keyword + tên của function + **()** chứa argu
 
 1. Mở IntelliJ IDEA
 
-![Controllers](https://github.com/LDK-VN/NestJS/blob/master/Resource/image/Controllers.png)
+![Controllers](https://github.com/KLD-VN/Learn-Kotlin/blob/main/Functions/Gallery/1/step_1_1.png)
