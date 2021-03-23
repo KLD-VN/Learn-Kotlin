@@ -63,7 +63,8 @@ println(java.util.Arrays.toString(number))
 
 ```diff
 +Note:
-Sử dụng primitive type (kiểu nguyên thủy) như Int hay Byte sẽ tránh được overhead of boxing (boxing là việc bao bọc con số bằng một object) 
+Sử dụng primitive type (kiểu nguyên thủy) như Int hay Byte sẽ tránh được overhead of boxing 
+(boxing là việc bao bọc con số bằng một object) 
 ```
 
 4. Kết hợp 2 mảng với toán tử **+**
