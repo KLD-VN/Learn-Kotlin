@@ -36,5 +36,8 @@ println(message)
 ```
 
 ```diff
-!Lưu ý: Vòng lặp là ngoại lệ với "mọi thứ đều có giá trị". Không có giá trị hợp lý cho for loop hoặc while loop, vì vậy chúng không có giá trị. Nếu cố gắng gán giá trị của vòng lặp cho một thứ gì đó, trình biên dịch sẽ báo lỗi.
+!Lưu ý:
+Vòng lặp là ngoại lệ với "mọi thứ đều có giá trị". 
+Không có giá trị hợp lý cho for loop hoặc while loop, vì vậy chúng không có giá trị. 
+Nếu cố gắng gán giá trị của vòng lặp cho một thứ gì đó, trình biên dịch sẽ báo lỗi.
 ```
