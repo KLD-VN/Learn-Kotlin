@@ -4,13 +4,13 @@
 
 which of the following declares an unchangeable list of string?
 
-▢ val school = arrayOf("shark", "salmon", "minnow")
+▢ **val school = arrayOf("shark", "salmon", "minnow")**
 
-▢ var school = arrayOf("shark", "salmon", "minnow")
+▢ **var school = arrayOf("shark", "salmon", "minnow")**
 
-▢ val school = listOf("shark", "salmon", "minnow")
+▢ **val school = listOf("shark", "salmon", "minnow")**
 
-▢ val school = mutableListOf("shark", "salmon", "minnow")
+▢ **val school = mutableListOf("shark", "salmon", "minnow")**
 
 ### Question 2
 
