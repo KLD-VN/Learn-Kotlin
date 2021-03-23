@@ -49,7 +49,7 @@ fun main(args: Array<String>) {
 
 ## Step 4: Change the code to use a string template
 
-Một [string template](string-template) chèn mọt biến hoặc biểu thức thành một chuỗi bằng cách sử dụng **$** + **{}** đóng khung biểu thức nếu có
+Một [string template](string-template) chèn một biến hoặc biểu thức thành một chuỗi bằng cách sử dụng **$** + **{}** đóng khung biểu thức nếu có
 
 1. Thay đổi thông báo chào mừng -> **args[0]** thay vì **world**
 
