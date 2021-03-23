@@ -1,6 +1,6 @@
 # Summary
 
-Kotlin giống các ngôn ngữ khác khi nói đến những điều cơ bản như toán tử, danh sách và vòng lặp. Tuy nhiên nó có một số khác biệt quan trọng
+Kotlin giống các ngôn ngữ khác khi nói đến những điều cơ bản như **operators**, **lists** và **loops**. Tuy nhiên nó có một số khác biệt quan trọng
 
 ## Tính Năng
 

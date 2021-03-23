@@ -25,7 +25,7 @@ myList.remove("shark")
 
 ```diff
 +Note:
-Một list được khai báo với **val** -> không thể thay đổi list mà biến refers (đề cập đến), nhưng có thể thay đổi nội dung trong list
+Một list được khai báo với val -> không thể thay đổi list mà biến refers (đề cập đến), nhưng có thể thay đổi nội dung trong list
 ```
 
 ## Step 2: Create arrays (Tạo các mảng)
