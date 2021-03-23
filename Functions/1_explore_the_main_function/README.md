@@ -61,10 +61,6 @@ fun main(args: Array<String>) {
 // => Hello, Kotlin!
 ```
 
-
-
-
-
 [string-template]: https://kotlinlang.org/docs/basic-types.html#string-templates
 
 
