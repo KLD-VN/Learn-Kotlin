@@ -14,4 +14,3 @@ Khai báo function -> **fun** keyword + tên của function + **()** chứa argu
 ## Step 1: Create a Kotlin file (Tạo một file kotlin)
 
 1. Mở IntelliJ IDEA
-
