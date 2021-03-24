@@ -94,7 +94,8 @@ fish = 2
 
 var aquarium = 1
 aquarium = 2
--> error: val cannot be reassigned
+
+=> error: val cannot be reassigned
 ```
 
 * Xác định một số biến và chỉ định kiểu một cách rõ ràng
@@ -113,12 +114,12 @@ val numberOfFish = 5
 val numberOfPlants = 12
 "I have $numberOfFish fish" + " and $numberOfPlants plants"
 
-=> I have 5 fish and 12 plants
+// => I have 5 fish and 12 plants
 ```
 
 * Biểu thức bên trong chuỗi
 
 ```kotlin
 "I have ${numberOfFish + numberOfPlants} fish and plants"
-=> I have 17 fish and plants
+// => I have 17 fish and plants
 ```
