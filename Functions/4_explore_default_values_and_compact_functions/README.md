@@ -118,5 +118,5 @@ fun shouldChangeWater (day: String, temperature: Int = 22, dirty: Int = getDirty
 
 ```
 
-![single-expression-functions](https://kotlinlang.org/docs/idioms.html#single-expression-functions)
+[single-expression-functions]:https://kotlinlang.org/docs/idioms.html#single-expression-functions
 
