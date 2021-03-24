@@ -115,7 +115,6 @@ Gía trị mặc định cho một tham số không nhất thiết phải là m�
 fun shouldChangeWater (day: String, temperature: Int = 22, dirty: Int = getDirtySensorReading()) : Boolean {
     ...
 }
-
 ```
 
 [single-expression-functions]:https://kotlinlang.org/docs/idioms.html#single-expression-functions
