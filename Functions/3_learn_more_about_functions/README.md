@@ -45,7 +45,7 @@ import java.util.* // required import
 
 1. Trong file **Hello.kt** thêm function **fishFood()**, mỗi ngày là một **String** và trả về thức ăn của cá dưới dạng một **String**. Sử dụng **when**, để mỗi ngày cá nhận được một loại thức ăn cụ thể.
 
-```js
+```kotlin
 fun fishFood (day : String) : String {
    var food = ""
    when (day) {
@@ -74,7 +74,7 @@ fun feedTheFish() {
 
 * Có một nhánh mặc định đảm bảo **food** sẽ nhận được giá trị trước khi trả về -> không cần khởi tạo nữa -> khai báo **food** với **val** thay vì **var**
 
-```js
+```kotlin
 fun fishFood (day: String) : String {
     val food: String
     when (day) {
@@ -91,7 +91,7 @@ fun fishFood (day: String) : String {
 
 3. Mọi biểu thức đều có một giá trị -> có thể trả về giá trị của biểu thức **when** và loại bỏ **food**. Giá trị của **when** là giá trị của biểu thức cuối cùng của nhánh thỏa mã điều kiện
 
-```js
+```kotlin
 fun fishFood (day: String) : String {
     return when (day) {
         "Monday" -> "flakes"

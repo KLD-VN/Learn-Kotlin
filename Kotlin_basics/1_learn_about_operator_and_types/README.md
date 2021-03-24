@@ -2,7 +2,7 @@
 
 ## STEP1: explore numeric operators (Khám phá toán tử số)
 
-```js
+```kotlin
 1 + 1
 => 2 (Int)
 
@@ -23,7 +23,7 @@
 
 * Kotlin giữ các số dưới dạng primitives (Nguyên thủy). Nhưng cũng cho phép gọi methods trên các số như thể chúng là các object
 
-```js
+```kotlin
 2.times(3)
 => 6        (Int)
 
@@ -38,19 +38,19 @@
 
 1. Xác định kiểu 
 
-```js
+```kotlin
 val i: Int = 6
 ```
 
 2. Auto-completion
 
-```js
+```kotlin
 val b1 = i.toBytes()
 ```
 
 3. Gán các biến thuộc các kiểu khác nhau
 
-```js
+```kotlin
 val b2: Byte = 1
 println(b2)
 => 1
@@ -61,7 +61,7 @@ val i1: Int = b2
 
 4. Thay thế kiểu gán 
 
-```js
+```kotlin
 val i4: Int = b2.toInt()
 => 1
 
@@ -71,7 +71,7 @@ val i5 Double = b2.toDouble()
 
 5. Underscores (dấu gạch dưới) giữa các số -> dễ đọc
 
-```js
+```kotlin
 val oneMillion = 1_000_000
 val socialSecurityNumber = 999_99_9999L
 val bytes = 0b1110111_111011101_01110101_1010101
@@ -88,7 +88,7 @@ Kotlin hỗ trợ 2 kiểu: var, val
 * var: có thể thay đổi
 * val: không thể thay đổi
 
-```js
+```kotlin
 var fish = 1
 fish = 2
 
@@ -99,7 +99,7 @@ aquarium = 2
 
 * Xác định một số biến và chỉ định kiểu một cách rõ ràng
 
-```js
+```kotlin
 var fish: Int = 12
 var lakes: Double = 2.5
 ```
@@ -108,7 +108,7 @@ var lakes: Double = 2.5
  
 * Variable interpolation (Nột suy biến)
 
-```js
+```kotlin
 val numberOfFish = 5
 val numberOfPlants = 12
 "I have $numberOfFish fish" + " and $numberOfPlants plants"
@@ -118,7 +118,7 @@ val numberOfPlants = 12
 
 * Biểu thức bên trong chuỗi
 
-```js
+```kotlin
 "I have ${numberOfFish + numberOfPlants} fish and plants"
 => I have 17 fish and plants
 ```

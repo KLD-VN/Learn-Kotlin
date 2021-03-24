@@ -2,7 +2,7 @@
 
 1. **if**/**else** statement
 
-```js
+```kotlin
 val numberOfFish = 50
 val numberOfPlants = 23
 if (numberOfFish > numberOfPlants) {
@@ -16,7 +16,7 @@ if (numberOfFish > numberOfPlants) {
 
 2. Range in an **if** statement (Phạm vi trong câu lệnh if)
 
-```js
+```kotlin
 val fish = 50
 if (fish in 1..100) {
     println(fish)
@@ -27,7 +27,7 @@ if (fish in 1..100) {
 
 3. **if** multiple cases -> **&&**, **||**, **else if**
 
-```js
+```kotlin
 if (numberOfFish == 0) {
     println("Empty tank")
 } else if (numberOfFish < 40) {
@@ -41,7 +41,7 @@ if (numberOfFish == 0) {
 
 4. **when** statement -> Cách tốt hơn thay thế cho chuỗi câu lệnh **if**/**else if**/**else** và nó giống switch trong các ngôn ngữ khác.
 
-```js
+```kotlin
 when (numberOfFish) {
     0 -> println("Empty tank")
     in 1..39 -> println("Got fish!")

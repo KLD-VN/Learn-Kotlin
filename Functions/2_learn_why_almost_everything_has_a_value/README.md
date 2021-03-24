@@ -4,7 +4,7 @@ Trong Kotlin hầu như mọi thứ là một biểu thức va có một giá tr
 
 1. Trong file **Hello.kt** -> viết đoạn mã vào **main()** để gán **println()** vào một biến **isUnit** và in nó ra (**println()** không trả về giá trị, nó trả về kotlin.Unit)
 
-```js
+```kotlin
 val isUnit = println("This is an expression")
 println(isUnit)
 
@@ -17,7 +17,7 @@ println(isUnit)
 2. Khai báo **val** gọi **temperature** và khởi tạo nó thành 10
 3. Khai báo **val** gọi **isHot** gán giá trị trả vê là một câu lệnh **if/else**. Vì nó là biểu thức nên có thể sử dụng giá trị của biểu thức này ngay
 
-```js
+```kotlin
 val temperature = 10
 val isHot = if (temperature > 50) true else false
 println(isHot)
@@ -27,7 +27,7 @@ println(isHot)
 
 4. Sử dụng **string template**
 
-```js
+```kotlin
 val temperature = 10
 val message = "The water temperature is ${ if (temperature > 50) "too warm" else "OK" }."
 println(message)

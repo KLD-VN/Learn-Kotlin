@@ -6,7 +6,7 @@ Tìm hiểu về **arrays**, **lists** và những cách tạo vòng lặp khác
 
 1. Khai báo list sử dụng **listOf** -> list này không thể thay đổi
 
-```js
+```kotlin
 val school = listOf("mackerel", "trout", "halibut")
 println(school)
 
@@ -15,7 +15,7 @@ println(school)
 
 2. Khai báo list có thể thay đổi được **mutableListOf**
 
-```js
+```kotlin
 val myList = mutableListOf("tuna", "salmon", "shark")
 myList.remove("shark")
 
@@ -36,7 +36,7 @@ Quy tắc về **var** và **val** giống như list
 
 1. Khai báo mảng string sử dụng **arrayOf**. Dụng **java.util.Arrays.toString()** để in nó ra
 
-```js
+```kotlin
 val school = arrayOf("shark", "salmon", "minnow")
 println(java.util.Arrays.toString(school))
 
@@ -45,7 +45,7 @@ println(java.util.Arrays.toString(school))
 
 2. Mảng được khai báo với **arrayOf** không liên kết type với các phần tử -> có thể mix các kiểu với nhau
 
-```js
+```kotlin
 val mix = arrayOf("fish", 2)
 println(java.util.Arrays.toString(mix))
 
@@ -54,7 +54,7 @@ println(java.util.Arrays.toString(mix))
 
 3. Có thể khai báo type cho tất cả các phần tử trong mảng. Khai báo mảng integers sử dụng **intArrayOf()**. Sẽ có các trình xây dựng hoặc hàm khởi tạo tương ứng cho các mảng thuộc loại khác nhau
 
-```js
+```kotlin
 val number = intArrayOf(1, 2, 3)
 println(java.util.Arrays.toString(number))
 
@@ -69,7 +69,7 @@ Sử dụng primitive type (kiểu nguyên thủy) như Int hay Byte sẽ tránh
 
 4. Kết hợp 2 mảng với toán tử **+**
 
-```js
+```kotlin
 val numbers = intArrayOf(1,2,3)
 val numbers3 = intArrayOf(4,5,6)
 val food2 = numbers3 + numbers
@@ -81,7 +81,7 @@ println(food2[5])
 
 5. Lồng arrays và lists. Phần tử trong array có thể là list và ngược lại
 
-```js
+```kotlin
 val numbers = intArrayOf(1, 2, 3)
 val oceans = listOf("Atlantic", "Pacific")
 val oddList = listOf(numbers, oceans, "salmon")
@@ -94,7 +94,7 @@ println(oddList)
 
 6. Tính năng khởi tạo arrays bằng code thay vì bằng 0.
 
-```js
+```kotlin
 val array = Array (5) { it * 2 }
 println(java.util.Arrays.toString(array))
 
@@ -108,7 +108,7 @@ println(java.util.Arrays.toString(array))
 1. Dùng **for** để lặp qua và in ra các phần tử của mảng
 
 
-```js
+```kotlin
 val school = arrayOf("shark", "salmon", "minnow")
 for (element in school) {
    println(element + " ")
@@ -119,7 +119,7 @@ for (element in school) {
 
 2. Lặp qua **elements** và **indexes** cùng lúc
 
-```js
+```kotlin
 for ((index, element) in school.withIndex()) {
      println("Item at $index in $element\n")
  }
@@ -131,7 +131,7 @@ for ((index, element) in school.withIndex()) {
 
 3. Chỉ định ranges (phạm vi) số hoặc ký tự , bảng chữ cái, nhảy **n** bước, lùi lại bằng **downTo**
 
-```js
+```kotlin
 for (i in 1..5) print(i)
 
 // => 12345
@@ -151,7 +151,7 @@ for (i in 'd'..'g') print(i)
 
 4. Vòng lặp **while**, **do...while**, **repeat** và toán tử **++**, **--**
 
-```js
+```kotlin
 var bubbles = 0
 while (bubbles < 50) {
    bubbles++

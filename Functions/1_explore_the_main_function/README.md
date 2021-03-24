@@ -1,6 +1,6 @@
 # Explore the main() function
 
-```js
+```kotlin
 fun printHello() {
    println("Hello World")
 }
@@ -28,7 +28,7 @@ Khai báo function -> **fun** keyword + tên của function + **()** chứa argu
 **main()** chỉ định để điểm nhập thực thi. Bất kỳ arguments nào được truyền dưới dạng một mảng chuỗi
 
 * Nhập hoặc dán đoạn code sau vào trong file **Hello.kt**
-```js
+```kotlin
 fun main(args: Array<String>) {
    println("Hello, world!")
 }
@@ -53,7 +53,7 @@ Một [string template](string-template) chèn một biến hoặc biểu thức
 
 1. Thay đổi thông báo chào mừng -> **args[0]** thay vì **world**
 
-```js
+```kotlin
 fun main(args: Array<String>) {
    println("Hello, ${args[0]}")
 }
