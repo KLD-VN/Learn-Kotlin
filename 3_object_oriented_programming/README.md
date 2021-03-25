@@ -1,6 +1,6 @@
 # Terminology (Thuật ngữ)
 
-* **Classes** là blueprint (bản thiết kế) cho **objects** -> sủ dụng để tạo và quan lý các đối tượng mới và hỗ trợ **inheritance** (kế thừa)
+* **Classes** là blueprint (bản thiết kế) cho **objects** -> sủ dụng để tạo và quản lý các đối tượng mới và hỗ trợ **inheritance** (kế thừa)
 
 ![class-and-object](https://github.com/KLD-VN/Learn-Kotlin/blob/main/3_object_oriented_programming/Gallery/1/class_and_object.png)
 
