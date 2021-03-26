@@ -2,9 +2,10 @@
 
 * **Classes** là blueprint (bản thiết kế) cho **objects** -> sủ dụng để tạo và quản lý các đối tượng mới và hỗ trợ **inheritance** (kế thừa)
 
+
 ![class-and-object](https://github.com/KLD-VN/Learn-Kotlin/blob/main/3_object_oriented_programming/Gallery/1/class_and_object.png)
 
-* **Object** là instances (thể hiện, các trường hợp của lớp) của **classes**
+* **Object** là instances (thể hiện, ví dụ cụ thể, trường hợp của lớp) của **classes**
 
 * **instance** là một một đối tượng cụ thể được tạo ra từ một lớp cụ thể.
 

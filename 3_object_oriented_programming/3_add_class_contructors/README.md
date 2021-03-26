@@ -55,8 +55,6 @@ Width: 25 cm Length: 110 cm Height: 35 cm
 !Lưu ý:
 Không cần phải tạo nhiều phiên bản hàm constructor khác nhau cho từng trường hợp. Kotlin tạo ra những gì cần thiết từ các giá trị mặc định và các tham số được đặt tên.
 ```
-
-
 ## Step 2: Add init blocks (Thêm khối init)
 
 Nếu cần thêm mã khởi tạo cho hàm **constructor**, có thể đặt nó trong khối **init**
@@ -112,13 +110,13 @@ Có nghĩa là bất kỳ khối **init** nào trong khối main sẽ được g
 
 1. Trong lớp **Aquarium**, thêm constructor thứ cấp -> số lượng cá là đối số. tạo **val** thuộc tính bể
 
-2. Trong hàm constructor thứ cấp, giữ nguyên chiều dài và chiều rộng, tính toán chiều cao cầnt thiết để bể có thể tích nhất định.
+2. Trong hàm constructor thứ cấp, giữ nguyên chiều dài và chiều rộng, tính toán chiều cao cần thiết để bể có thể tích nhất định.
 
 ```kotlin
  constructor(numberOfFish: Int) : this() {
-        // 2,000 cm^3 per fish + extra room so water doesn't spill
+        // 2,000 cm^3 cho mỗi con cá + thêm room để nước không tràn
         val tank = numberOfFish * 2000 * 1.1
-        // calculate the height needed
+        // tính toán chiều cao cần thiết
         height = (tank / (length*width)).toInt()
     }
 ```
