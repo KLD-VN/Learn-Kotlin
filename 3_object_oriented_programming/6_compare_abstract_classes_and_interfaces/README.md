@@ -75,8 +75,9 @@ Plecostomus: gold
 
 Sơ đồ sau đại diện cho -> **Shark** class và **Plecostomus** class -> subclass của abstract class **AquariumFish**
 
-
-![one-abstract-class-two-subclasses](https://github.com/KLD-VN/Learn-Kotlin/blob/main/3_object_oriented_programming/Gallery/4/one_abstract_class_two_subclasses.png)
+<div style="text-align:center">
+   <img src="https://github.com/KLD-VN/Learn-Kotlin/blob/main/3_object_oriented_programming/Gallery/4/one_abstract_class_two_subclasses.png" />
+</div>
 
 ## Step 2. Create an interface (Tạo một giao diện)
 
@@ -130,7 +131,9 @@ eat algae
 
 Biểu đồ sau đại diện cho 2 classes **Shark** và **Plecostomus** -> cả 2 được cấu tạo và implement **FishAction** interface.
 
-![two-classes-one-interface](https://github.com/KLD-VN/Learn-Kotlin/blob/main/3_object_oriented_programming/Gallery/4/two_classes_one_interface.png)
+<div style="text-align:center">
+   <img src="https://github.com/KLD-VN/Learn-Kotlin/blob/main/3_object_oriented_programming/Gallery/4/two_classes_one_interfaces.png" />
+</div>
 
 ## When to use abstract classes versus interfaces (Khi nào sử dụng lớp trừu tượng so với giao diện)
 
