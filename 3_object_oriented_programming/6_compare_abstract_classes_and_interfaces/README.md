@@ -1,7 +1,7 @@
 # Compare abstract classes and interfaces (So sánh các lớp và giao diện trừu tượng)
 
-Để xác định hành vi hoặc thuộc tính chung để được chia sẻ giữa một số lớp liên quan. Kotlin cung cấp 2 cách để làm -> abstract và interfaces. 
-Tạo một lớp trừu tượng **AquariumFish** cho các thuộc tính chung cho tất cả các loài cá.
+Để xác định hành vi hoặc thuộc tính chung để được chia sẻ giữa một số lớp liên quan. Kotlin cung cấp 2 cách để làm -> abstract và interfaces. </br>
+Tạo một lớp trừu tượng **AquariumFish** cho các thuộc tính chung cho tất cả các loài cá.<br/>
 Tạo một interfaces gọi là **FishAction** để xác định hành vi chung cho tất cả các loài cá.
 
 * Cả một abstract hay một interface đều không thể được khởi tạo riêng -> nghĩa là không thể tạo đối tượng thuộc các kiểu đó một cách trực tiếp.
@@ -75,9 +75,9 @@ Plecostomus: gold
 
 Sơ đồ sau đại diện cho -> **Shark** class và **Plecostomus** class -> subclass của abstract class **AquariumFish**
 
-<div style="text-align:center">
+<p align="center">
    <img src="https://github.com/KLD-VN/Learn-Kotlin/blob/main/3_object_oriented_programming/Gallery/4/one_abstract_class_two_subclasses.png" />
-</div>
+</p>
 
 ## Step 2. Create an interface (Tạo một giao diện)
 
@@ -131,9 +131,9 @@ eat algae
 
 Biểu đồ sau đại diện cho 2 classes **Shark** và **Plecostomus** -> cả 2 được cấu tạo và implement **FishAction** interface.
 
-<div style="text-align:center">
+<p align="center">
    <img src="https://github.com/KLD-VN/Learn-Kotlin/blob/main/3_object_oriented_programming/Gallery/4/two_classes_one_interfaces.png" />
-</div>
+</p>
 
 ## When to use abstract classes versus interfaces (Khi nào sử dụng lớp trừu tượng so với giao diện)
 
