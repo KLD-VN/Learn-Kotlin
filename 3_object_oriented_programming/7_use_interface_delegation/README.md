@@ -131,8 +131,8 @@ class Plecostomus(fishColor: FishColor = GoldColor):
 
 Sơ đồ đại diện cho **Shark** và **Plecostomus** class, cả 2 đều bao gồm **PrintingFishAction** và **FishColor**, nhưng delegation được triển khai cho chúng.
 
-<p style="text-align:center">
-   <img width="460" height="300" src="https://github.com/KLD-VN/Learn-Kotlin/blob/main/3_object_oriented_programming/Gallery/4/two_classes_two_interfaces_with_delegation.png" />
+<p align="center">
+   <img src="https://github.com/KLD-VN/Learn-Kotlin/blob/main/3_object_oriented_programming/Gallery/4/two_classes_two_interfaces_with_delegation.png" />
 </p>
 
 
