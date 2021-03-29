@@ -135,5 +135,4 @@ Sơ đồ đại diện cho **Shark** và **Plecostomus** class, cả 2 đều b
    <img src="https://github.com/KLD-VN/Learn-Kotlin/blob/main/3_object_oriented_programming/Gallery/4/two_classes_two_interfaces_with_delegation.png" />
 </p>
 
-
 Interface delegation rất mạnh -> nên xem xét cách sử dụng nó bất cứ khi nao sử dụng một abstract class. Cho phép sử dụng các thành phần để bổ sung các hành vi, thay vì yêu cầu nhiêu subclasses, mỗi lớp chuyên biệt theo một cách khác nhau.
