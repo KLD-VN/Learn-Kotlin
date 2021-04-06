@@ -34,7 +34,7 @@
 => 0.3333.  (Double)
 ```
 
-## Step 2: Practice using types (Thực hành sưe dụng types)
+## Step 2: Practice using types (Thực hành sử dụng types)
 
 1. Xác định kiểu 
 
